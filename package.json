@@ -1,0 +1,56 @@
+{
+  "name": "zivame-assignment-form-builder-tool",
+  "version": "1.0.0",
+  "description": "This App will be used to build forms configs, validate forms configs and store it in the backend which will be fetched by form renderer app to render it to the end users",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./client/src/index.html --open & nodemon index.js",
+    "build": "parcel build ./client/src/index.html --out-dir client/build --public-url /client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrashantLabh/zivame-assignment-form-builder-tool.git"
+  },
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "brace": "^0.11.1",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.16.1",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^4.13.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-json-editor-ajrm": "^2.5.13",
+    "react-json-pretty": "^2.2.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1",
+    "zivame-assignment-universal-form-renderer": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.13",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "nodemon": "^1.12.1",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.32.8"
+  },
+  "keywords": [
+    "config",
+    "form",
+    "builder",
+    "tool",
+    "nodejs",
+    "admin",
+    "react",
+    "webcomponents",
+    "html"
+  ],
+  "author": "prashantlabh604@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PrashantLabh/zivame-assignment-form-builder-tool/issues"
+  },
+  "homepage": "https://github.com/PrashantLabh/zivame-assignment-form-builder-tool#readme"
+}

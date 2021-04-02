@@ -1,0 +1,64 @@
+
+
+  .buttons-container{
+      padding: 10px
+  }
+
+  .buttons-container{
+      width:1000px;
+  }
+  .buttons-container .save{
+    float: right;
+    font-weight: bolder;
+    margin-right: 50px;
+}
+
+    .buttons-container .config-uploader{
+        font-weight: bolder;
+    }
+
+.list-btn{
+    float: right;
+}
+
+      
+      #forms {
+        text-align: center;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        border: 3px solid #ddd;
+        width: 100%;
+      }
+      
+      #forms td, #forms th {
+        border: 1px solid #ddd;
+        padding: 8px;
+      }
+      
+      #forms tr:nth-child(even){background-color: #f2f2f2;}
+      
+      #forms tr:hover {background-color: #ddd;}
+      
+      #forms th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #4CAF50;
+        color: white;
+      }
+
+    .forms-title{
+        font-weight: bolder;
+    }
+    .create-new{
+        margin: 10px;
+        float: right;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+    }
